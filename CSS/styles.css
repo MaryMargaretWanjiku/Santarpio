@@ -1,0 +1,121 @@
+ body{
+   width: 100%;
+ }
+
+.topnav {
+  background-color:red;
+  overflow: hidden;
+  float: left;
+  margin-top: -30px;
+  justify-content: space-around;
+  background:black;
+ 
+ 
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px;
+  height: 90px;
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+
+#icon{
+  float: left;
+}
+#icon-right{
+  float: right;
+}
+
+
+ 
+.toppage{
+  height: 700px;
+  background-image: url("/IMAGES/mitchell-griest-ARBBUlj-6Es-unsplash.jpg");
+  color: darkgrey;
+  font-size:30px ;
+  text-align: center;
+  background-repeat: no-repeat;
+
+}
+.menu{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color: azure;
+  justify-content: space-around;
+  background-image: url("../IMAGES/photo-of-pizza-1788852.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+.flex-container{
+  display: flex;
+}
+h2{
+  text-align: center;
+}
+
+.menu-heading{
+  align-items: center;
+  text-align: center;
+  }
+  .click-me,
+  button[type=submit],
+  .delivery,
+  .pick {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      letter-spacing: 2px;
+      background-color: #ffbf00;
+      outline: none;
+      padding: 12.5px 13px;
+      border: none;
+      border-radius: 33px;
+      font-size: 14px;
+  }
+  .form {
+    text-align: center;
+    align-items: center;
+    
+    color:white;
+}
+.order-overlay {
+  padding: 20px 20px 0px 20px;
+  border-radius: 20px;
+  
+}
+.checkout{
+  border-radius: 30px;
+  margin-top: 20px;
+}
+ul>li {
+  list-style: none;
+}
+.order{
+  color: aquamarine;
+}
+
+
+
+  .deliver,
+.delivernot {
+    margin: 10px;
+}
+
+
+.footer {
+  background-color: gray;
+  font-family: 'Kalam', cursive;
+}
+#pizza{
+  background-image: linear-gradient(rgba(2, 0, 0, 0.308), rgba(0, 0, 0, 0.620)), url("/IMAGES/delivery\ guy.png");
+  height: 700px;
+  color:black;
+  font-weight: bolder;
+  display: inline-block;
+}
