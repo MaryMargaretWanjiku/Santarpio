@@ -32,7 +32,7 @@
  
 .toppage{
   height: 700px;
-  background-image: url("/IMAGES/mitchell-griest-ARBBUlj-6Es-unsplash.jpg");
+  background-image: url("../IMAGES/mitchell-griest-ARBBUlj-6Es-unsplash.jpg");
   color: darkgrey;
   font-size:30px ;
   text-align: center;
@@ -113,7 +113,7 @@ ul>li {
   font-family: 'Kalam', cursive;
 }
 #pizza{
-  background-image: linear-gradient(rgba(2, 0, 0, 0.308), rgba(0, 0, 0, 0.620)), url("/IMAGES/delivery\ guy.png");
+  background-image: linear-gradient(rgba(2, 0, 0, 0.308), rgba(0, 0, 0, 0.620)), url("../IMAGES/delivery\ guy.png");
   height: 700px;
   color:black;
   font-weight: bolder;
