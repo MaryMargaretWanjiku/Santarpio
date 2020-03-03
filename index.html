@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIZZA</title>
-    <link rel="stylesheet" type="text/" href="bootstrap.css">
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" type="text/" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
@@ -19,8 +19,8 @@
             <a href="#ourmenu">Our Menu</a></li>
             <a href="#order">Place Order</a>
             <a href="#enquiries">Enquire</a>
-            <div id="icon"><img src="/IMAGES/pizza icon.png " width="150px" height="100px"> </div>
-            <div id="icon-right"><img src="/IMAGES/pizza icon.png " width="150px" height="100px"> </div>
+            <div id="icon"><img src="./IMAGES/pizza icon.png " width="150px" height="100px"> </div>
+            <div id="icon-right"><img src="./IMAGES/pizza icon.png " width="150px" height="100px"> </div>
         </div>
 
         <div class="toppage">
@@ -29,7 +29,7 @@
                 <h1>EAT WHAT MAKES YOU HAPPY </h1>
                 <h2>@</h2>
                 <h1>SANTARPIO PIZZA </h1>
-                <img src="/IMAGES/pizzeria.jpeg" width=320px>
+                <img src="./IMAGES/pizzeria.jpeg" width=320px>
                 <p><br><br><br><br><br>
             </div>
             <div class="menu-heading" id="ourmenu">
@@ -43,15 +43,15 @@
             <div class="flex-container">
 
                 <div>
-                    <img src="/IMAGES/small pizza.jpeg" width="460px" alt="regular">
+                    <img src="./IMAGES/small pizza.jpeg" width="460px" alt="regular">
                     <p>Small<br>500</p>
                 </div>
                 <div>
-                    <img src="/IMAGES/medium.jpeg" width="450px" alt="medium">
+                    <img src="./IMAGES/medium.jpeg" width="450px" alt="medium">
                     <p>Medium<br>800</p>
                 </div>
                 <div>
-                    <img src="/IMAGES/photo-of-pizza-1788852.jpg" width="450px" alt="large">
+                    <img src="./IMAGES/photo-of-pizza-1788852.jpg" width="450px" alt="large">
                     <p>Large<br>1500</p>
                 </div>
             </div>
@@ -62,81 +62,86 @@
                     <div class="col-sm-2">
                         <div class="col-sm-8">
                             <div class="col-sm-8 order-overlay text-center">
-                                
+
                                 <div class="form-group">
-                                <form id="pizza" class="col-sm-6 offset-sm-3 text-center">
-                                    
-
-                                    <label for="sizes">Pick the Size</label>
-                                    <select id="sizes" class="custom-select custom-select-md mb-3 size" required>
-                                        <option value="500">Small Pizza @ 500</option>
-                                        <option value="800">Medium Pizza @ 800</option>
-                                        <option value="1500">Large Pizza @ 1500</option>
-
-                                    </select>
-
-                                    <label for="crusts">Pick your crust</label>
-                                    <select id="crusts" class="custom-select-md mb-3 crust" required>
-                                        <option value="100">Crispy</option>
-                                        <option value="200">Stuffed</option>
-                                        <option value="300">Gluten free</option>
-                                    </select>
+                                    <form id="pizza" class="col-sm-6 offset-sm-3 text-center">
 
 
-                                    <label for="toppings">Pick your topping</label>
-                                    <select id="toppings" class="custom-select-md-mb-3 crust" required>
-                                        <option value="80">Olives</option>
-                                        <option value="100">Bacon</option>
-                                        <option value="100">Pistacio</option>
-                                        <option value="50">Onions</option>
-                                        <option value="100">Sausage</option>
-                                        <option value="150">Pepperoni</option>
-                                        <option value="100">Cheese</option>
-                                    </select>
+                                        <label for="sizes">Pick the Size</label>
+                                        <select id="sizes" class="custom-select custom-select-md mb-3 size" required>
+                                            <option value="500">Small Pizza @ 500</option>
+                                            <option value="800">Medium Pizza @ 800</option>
+                                            <option value="1500">Large Pizza @ 1500</option>
 
-                                    <label for="number">Number of pizzas</label>
-                                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas"
-                                        min="1" max="50" required>
-                                    <button type="submit" class="btn btn-danger checkout"
-                                        id="checkout">Checkout</button>
-                                
+                                        </select>
 
-                       
-                        <div class="order">
-                            <h1>Receipt</h1>
-                            
-                            SIZE<p  id="SIZE"></p>
-                            CRUST<p id="CRUST"></p>
-                           TOPPING<p  id="TOPPING"></p>
-                           <p id="TOTAL"></p>
+                                        <label for="crusts">Pick your crust</label>
+                                        <select id="crusts" class="custom-select-md mb-3 crust" required>
+                                            <option value="100">Crispy</option>
+                                            <option value="200">Stuffed</option>
+                                            <option value="300">Gluten free</option>
+                                        </select>
+
+
+                                        <label for="toppings">Pick your topping</label>
+                                        <select id="toppings" class="custom-select-md-mb-3 crust" required>
+                                            <option value="80">Olives</option>
+                                            <option value="100">Bacon</option>
+                                            <option value="100">Pistacio</option>
+                                            <option value="50">Onions</option>
+                                            <option value="100">Sausage</option>
+                                            <option value="150">Pepperoni</option>
+                                            <option value="100">Cheese</option>
+                                        </select>
+
+                                        <label for="number">Number of pizzas</label>
+                                        <input type="number" class="form-control" id="number"
+                                            placeholder="Number of pizzas" min="1" max="50" required>
+                                        <button type="submit" class="btn btn-danger checkout"
+                                            id="checkout">Checkout</button>
+
+
+
+                                        <div class="order">
+                                            <h1>Receipt</h1>
+
+                                            SIZE<p id="SIZE"></p>
+                                            CRUST<p id="CRUST"></p>
+                                            TOPPING<p id="TOPPING"></p>
+                                            <p id="TOTAL"></p>
+                                        </div>
+
+
+                                        <!-- <div class="summary" id="sum order">
+                            <h1 class="text-center" id="summary">Order Summary</h1>
+                            <h2 class="text-center summary">Your order is as follows:</h2>
+                            <ul id="list" class="text-center sum">
+
+                            </ul>
+                        </div> -->
+
+                                        <div class="d-block mx auto text-center">
+                                            <button class="delivery">Make Delivery</button>
+                                            <button class="pick">Pick Up</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
                         </div>
-
-                               
-                        
-
-                        <div class="d-block mx auto text-center">
-                            <button class="delivery">Make Delivery</button>
-                            <button class="pick">Pick Up</button>
-                        </div>
-                    </form>
                     </div>
-                    
-            
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-</div>
 
 
-                    <div class="footer text-center" id="enquiries">
-                        <footer>
-                            <p>Email:marymaggie99@gmail.com</p>
-                            <p>Tel:0124356864</p>
-                            <p><em>&copy; 2019 All Rights Reserved</em></p>
-                        </footer>
-                    </div>
-   
+            <div class="footer text-center" id="enquiries">
+                <footer>
+                    <p>Email:marymaggie99@gmail.com</p>
+                    <p>Tel:0124356864</p>
+                    <p><em>&copy; 2019 All Rights Reserved</em></p>
+                </footer>
+            </div>
 
 
 
@@ -145,8 +150,9 @@
 
 
 
-    <script  src="JS/jquery-3.4.1.js"></script>
-    <script src="/JS/scripts.js"></script>
+
+            <script src="./JS/jquery-3.4.1.js"></script>
+            <script src="./JS/scripts.js"></script>
 </body>
 
 </html>
